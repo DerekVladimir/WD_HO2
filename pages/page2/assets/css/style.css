@@ -73,10 +73,14 @@ h1 {
 
 .highlight {
     color: red;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in;
 }
 
 .dark {
     color: #4a4a4a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in;
 }
 
 button {

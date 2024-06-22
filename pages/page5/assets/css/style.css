@@ -1,13 +1,16 @@
 body {
-    font-family: Arial, sans-serif;
-    background-image : url('https://i.pinimg.com/originals/f4/af/df/f4afdf4230df022cac7f701e5bb3bb19.gif');
-    background-size: cover;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    color: #333;
 }
 
 header {
-    background-color: #333;
-    color: white;
-    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 2rem;
 }
 
 nav {
@@ -19,68 +22,99 @@ nav {
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin-left: 1rem;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
-.hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 2rem;
-    height: 80vh;
-}
-
-.hero-text {
-    background-color: gray;
-    max-width: 50%;
-    margin-left: 800px;
+    color: #6c63ff;
 }
 
 h1 {
+    color: #EA543B;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+    padding: 2rem;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+.text-content h1 {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    animation: fadeIn 1s ease-in;
-    margin-bottom: -20px;
+    color: #EA543B;
 }
 
-p {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-    animation: fadeIn 1.5s ease-in;
-}
-
-.cta-button {
-    padding: 0.5rem 1rem;
+.text-content p {
     font-size: 1rem;
-    background-color: #ff6b6b;
-    color: white;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.buttons {
+    margin-bottom: 2rem;
+}
+
+.primary-btn,
+.secondary-btn {
+    padding: 0.75rem 1.5rem;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    animation: fadeIn 2s ease-in;
+    font-size: 1rem;
+    margin-right: 1rem;
 }
 
+.primary-btn {
+    background-color: #6c63ff;
+    color: #fff;
+}
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.secondary-btn {
+    background-color: #e0e0e0;
+    color: #333;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+}
+
+.image1 {
+    transform: translateY(-50px);
+    margin-left: 1000px;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.image2 {
+    transform: translateY(0);
+    margin-left: 1500px;
+    margin-top: -100px;
+    margin-bottom: 200px;
+}
+
+.image3 {
+    transform: translateY(50px);
+    margin-left: 2000px;
+    margin-top: -100px;
+    margin-bottom: 200px;
 }

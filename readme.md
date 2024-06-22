@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/wahwahwahwah-wah/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://i.pinimg.com/originals/18/ba/5d/18ba5d426eae90d75234a5df205081a8.gif" alt="Seatwork 2" width="130" height="150">
+    <img src="https://i.pinimg.com/originals/18/ba/5d/18ba5d426eae90d75234a5df205081a8.gif" alt="Hands on 2" width="130" height="150">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Seatwork 2 </h3>
+  <h3 align="center">Hands on 2 </h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+ Welcome to my Heros and Cards consisting of 5 different hero styles, 5 different static card styles, and 5 different animated card styles that's inspired by animes close to my heart.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?wahwahwahwah-wah/HANDS_ON_2_ROSEL)
+![](https://visit-counter.vercel.app/counter.png?page=/wahwahwahwah-wah/HANDS_ON_2_ROSEL)
 
 ---
 
@@ -61,9 +61,14 @@ Description of the project in details.
 
 Guiding Question:
 - What is the project
+   -The project involves creating a Hero and Card Display Website using pure HTML and CSS.
+
 - Whats the purpose
+-The purpose of the website is to demonstrate design skills and showcase various hero and card variations.
 - What are key components
+  -Designs and Themes
 - What technology used and how it is used
+  -Pure HTML, and CSS.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +122,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. |  |
+| Simple CSS Button examples |Used as a reference for the CSS. | https://copy-paste-css.com |

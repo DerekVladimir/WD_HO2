@@ -76,10 +76,6 @@ body {
     transition: background-color 0.3s;
 }
 
-.btn:hover {
-    background-color: #005f5f;
-}
-
 .icon {
     width: 30px;
     height: auto;

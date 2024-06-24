@@ -13,6 +13,11 @@ body {
     text-align: center;
 }
 
+.static-card .icon {
+    width: 65px;
+    height: auto;
+    margin: 10px 0;
+}
 .card-container {
     display: flex;
     justify-content: center;

@@ -14,6 +14,7 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #fffcfc;
+    position: relative;
 }
 
 .logo {
@@ -22,11 +23,17 @@ header {
     color: red;
     animation: slideIn 1s ease-in-out;
 }
-.new-class
-{
-align-items: center;
-margin-top: -200px;
-margin-left: 500px;
+
+.new-class {
+    align-items: center;
+    margin-top: -200px;
+    margin-left: 500px;
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 nav ul {
@@ -54,12 +61,13 @@ main {
     align-items: center;
     text-align: center;
     flex: 1;
-    background: url('https://i.pinimg.com/originals/e5/0a/a1/e50aa1bcb53f8082844b20ae8c65993b.gif') no-repeat center center/cover;
+    background: url('https://64.media.tumblr.com/86d76c21e400a08d181ccd89cf0eeda6/13be60b31fe3884f-b3/s540x810/a77997039b74331128742e3ac50bea4c98be0dcb.gif') no-repeat center center/cover;
     position: relative;
 }
 
 .content {
     animation: fadeIn 2s ease-in-out;
+    max-width: 80%;
 }
 
 h1 {
@@ -108,3 +116,4 @@ button:hover {
     0% { transform: translateX(-100%); }
     100% { transform: translateX(0); }
 }
+
